@@ -1,0 +1,39 @@
+ body {
+     font-family: Arial, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;
+     background-color: #282c34;
+     color: #61dafb;
+     flex-direction: column;
+ }
+
+ .buttons {
+     display: flex;
+     justify-content: space-around;
+     width: 200px;
+
+
+ }
+
+ .btn {
+     border-radius: 10px;
+     border: none;
+     margin-bottom: 20px;
+     padding: 10px;
+     background-color: #61dafb;
+     color: #282c34;
+
+ }
+
+ .btn:hover {
+     background-color: #32b5da;
+ }
+
+
+ .clock {
+     font-size: 4rem;
+     text-align: center;
+ }
